@@ -1,0 +1,57 @@
+/* pages/detail/detail.wxss */
+.zong{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 91vh;
+}
+.a{
+  display: flex;
+  align-items: center;
+}
+image{
+  width: 50px;
+  height: 50px
+}
+.cover{
+  text-align:  center;
+}
+
+.title{
+  font-size:30px; 
+}
+.list-item{
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+.item-name{
+  margin-right: 10px;
+}
+.item-title{
+  background-color: #fff;
+  height: 60%;
+}  
+.item-image image{
+  width: 100%;
+  height: 100%;
+}
+page{
+  background-color: #eee;
+}
+.input-panel{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+.input-panel  .input-title{
+  flex:2;
+  padding: 10px;
+}
+.input-panel .input input{
+  height: 100%;
+  font-size:24px; 
+}
+
+.input-panel .btn{
+  flex: 1;
+}
